@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .gallery img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+}
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+        }
+        .menu-list img {
+    width: 70%; 
+   
+    object-fit: cover;
+}
+
+
+        .menu-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="home">
+        <h1>Welcome to Image Links!</h1>
+        <p>Explore our curated collection of images related to technology, nature, and food.</p>
+
+        <h2>1. Technology</h2>
+        <a href="https://transcosmos.co.uk/blog/just-how-important-technology-is-to-customer-service-in-todays-time/" target="_blank">
+            <img src="tech-image.jpg" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>2. Gallery - Nature</h2>
+        <div class="gallery">
+            <a href="https://picjumbo.com/beautiful-nature-mountain-scenery-with-flowers/" target="_blank">
+                <img src="nature-1.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://www.smithsonianmag.com/science-nature/why-listening-sounds-nature-can-be-restorative-180977397/" target="_blank">
+                <img src="nature-2.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://www.wcs.org/our-work/wildlife" target="_blank">
+                <img src="nature-3.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h3>3. Menu</h3>
+        <ul class="menu-list">
+            <li class="menu-item">
+                    <h4>Somali Anjera</h4>
+                <a href="https://www.pinterest.com/pin/somalian-pancake-called-canjeero--57069120270525593/" target="_blank">
+                    
+                    <img src="food-1.jpg" alt="Food Image 1">
+                    
+                </a>
+            </li>
+            <li class="menu-item">
+
+                <h4>Ugali</h4>
+                <a href="https://www.pinterest.com/pin/837528861974083404/" target="_blank">
+                    <img src="food-2.jpg" alt="Food Image 2">
+                    
+                </a>
+            </li>
+            <li class="menu-item">
+                <h4>Pizza</h4>
+                <a href="https://www.pinterest.com/pin/321937073333893902/" target="_blank">
+                    <img src="food-3.jpg" alt="Food Image 3">
+                
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>&copy 2024 Mohamed Hassan</footer>
+
+</body>
+</html>
